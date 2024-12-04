@@ -1,0 +1,42 @@
+/* MainPage.css */
+.main-page {
+    background-color: #D1E9F6; /* Light blue background */
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5rem;
+    color: #2C3E50; /* Dark text for contrast */
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #F6EACB; /* Light yellow for buttons */
+    color: #2C3E50; /* Dark text for readability */
+    font-size: 1.2rem;
+    padding: 15px 25px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #F1D3CE; /* Light pink when hovered */
+    transform: translateY(-2px);
+}
+
+button:active {
+    background-color: #EECAD5; /* Slightly darker pink for active state */
+}
+
+button:focus {
+    outline: none;
+}

@@ -1,0 +1,57 @@
+/* AttendanceList.css */
+.attendance-list {
+    background-color: #D1E9F6; /* Light blue background */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 30px auto;
+}
+
+h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2rem;
+    color: #2C3E50; /* Dark color for headings */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #F6EACB; /* Light yellow background for table */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    font-size: 1rem;
+    color: #2C3E50; /* Dark text for readability */
+}
+
+table th {
+    background-color: #F1D3CE; /* Light pink background for headers */
+    color: #FFFFFF; /* White text on header */
+}
+
+table tr:nth-child(even) {
+    background-color: #F6EACB; /* Slightly darker pink for even rows */
+}
+
+table tr:nth-child(odd) {
+    background-color: #F6EACB; /* Light yellow for odd rows */
+}
+
+table tr:hover {
+    background-color: #F1D3CE; /* Light pink on hover */
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #2C3E50; /* Dark text color */
+}

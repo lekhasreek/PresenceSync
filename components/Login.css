@@ -1,0 +1,93 @@
+/* Login.css */
+.login-container {
+    background-color: #D1E9F6; /* Light blue background */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 50px auto;
+}
+
+h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2rem;
+    color: #2C3E50; /* Dark color for headings */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #F1D3CE; /* Light pink for buttons */
+    color: white;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #EECAD5; /* Light pink on hover */
+}
+
+button[type="button"] {
+    background-color: #F6EACB; /* Light yellow for non-submit buttons */
+    color: #2C3E50; /* Dark color for text */
+}
+
+button[type="button"]:hover {
+    background-color: #EECAD5; /* Light pink on hover */
+}
+
+button[type="submit"] {
+    background-color: #F1D3CE; /* Light pink for submit button */
+}
+
+img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Toastify__toast-container {
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    background-color: #F6EACB; /* Toast background */
+}
+
+.Toastify__toast {
+    color: #2C3E50;
+}
+
+.Toastify__toast--success {
+    background-color: #D1E9F6; /* Success toast background */
+}
+
+.Toastify__toast--error {
+    background-color: #F1D3CE; /* Error toast background */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form > button {
+    margin-top: 20px;
+}
+
+form > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form > div > button {
+    margin-top: 10px;
+}
